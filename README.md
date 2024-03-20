@@ -26,7 +26,6 @@ You can ramp the number of VUs up and down during the test. To configure ramping
 
 Using Mac locally
 brew install k6
-$ k6 run script.js
 k6 run k6.js
 
 ![k6Execution](https://github.com/rony431/willdom/assets/54337373/2aaad68e-6a5f-4e1d-a07d-239b8420180f)
