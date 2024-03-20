@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing pet swagger",
+    "line": 1,
+    "id": "testing-pet-swagger",
+    "tags": [],
+    "uri": "pets.feature",
+    "elements": [
+      {
+        "id": "testing-pet-swagger;verify-pet-swagger-to-create-user",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify pet swagger to create user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Create new pet",
+            "result": {
+              "status": "passed",
+              "duration": 497000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "find a pet by status",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "find a pet by id",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "pet is updated",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "pet is deleted",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
